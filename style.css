@@ -5,12 +5,12 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: 'Inconsolata', monospace;
+	font-family: ariel;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	height: 100vh;
-	background: #020100;
+	background: #FFFFFF;
 }
 .container {
 	border: 10px solid rgb(0, 240, 0);
@@ -21,7 +21,7 @@ body {
 	align-items: center;
 	flex-direction: column;
 	color:#fff;
-	font-size: 32px;
+	font-size: 48px;
 	border-radius: 50%;
 	background: rgb(0, 0, 0);
 	box-shadow: 
