@@ -9,11 +9,11 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 50vh;
+	height: 100vh;
 	background: #FFFF;
 }
 .container {
-	border: 10px solid rgb(255, 255, 255);
+	border: 50px solid rgb(255, 255, 255);
 	width: 200px;
 	height: 100px;
 	display: flex;
