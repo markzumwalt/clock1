@@ -21,7 +21,7 @@ body {
 	align-items: center;
 	flex-direction: column;
 	color:#ffff;
-	font-size: 48px;
+	font-size: 72px;
 	border-radius: 50%;
 	background: rgb(255, 255, 255);
 	box-shadow: 
@@ -31,7 +31,7 @@ body {
 }
 .time {
 	font-size: 1em;
-	color:rgb(40, 40, 40);
+	color:rgb(0, 0, 0);
 }
 .blink-colon {
 	animation: blink 1s infinite linear;
