@@ -30,8 +30,8 @@ body {
 		0 0 15px rgb(0, 240, 0);
 }
 .time {
-	font-size: 2em;
-	color:rgb(0, 240, 0);
+	font-size: 1.5em;
+	color:rgb(240, 240, 240);
 }
 .blink-colon {
 	animation: blink 1s infinite linear;
@@ -47,5 +47,5 @@ body {
 .date-container {
 	margin-top: 6px;
 	font-size: 24px;
-	color: rgba(255,255,255,0.8)
+	color: rgb(255,255,255)
 }
