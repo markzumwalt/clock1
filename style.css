@@ -13,7 +13,7 @@ body {
 	background: #FFFFFF;
 }
 .container {
-	border: 10px solid rgb(240, 240, 240);
+	border: 10px solid rgb(255, 255, 255);
 	width: 450px;
 	height: 450px;
 	display: flex;
@@ -23,11 +23,11 @@ body {
 	color:#ffff;
 	font-size: 48px;
 	border-radius: 50%;
-	background: rgb(240, 240, 240);
+	background: rgb(255, 255, 255);
 	box-shadow: 
-		0 0 5px rgb(240, 240, 240),
-		0 0 10px rgb(240, 240, 240),
-		0 0 15px rgb(240, 240, 240);
+		0 0 5px rgb(255, 255, 255),
+		0 0 10px rgb(255, 255, 255),
+		0 0 15px rgb(255, 255, 255);
 }
 .time {
 	font-size: 1.5em;
@@ -41,7 +41,7 @@ body {
 		opacity: 1;
 	}
 	30% {
-		opacity: 0.4;
+		opacity: 1;
 	}
 }
 .date-container {
