@@ -9,7 +9,6 @@ function updateTime() {
 	
 	document.querySelector("#hour")  .innerHTML = format( date.getHours()   );
 	document.querySelector("#minute").innerHTML = format( date.getMinutes() );
-	document.querySelector("#second").innerHTML = format( date.getSeconds() );
 
 	document.querySelector("#date").innerHTML = (
 		[
