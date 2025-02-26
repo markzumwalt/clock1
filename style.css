@@ -5,6 +5,7 @@
 }
 body {
 	font-family: Trebuchet MS;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	background: #FFFF;
