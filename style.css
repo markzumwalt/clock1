@@ -30,19 +30,3 @@ body {
 	font-size: 1em;
 	color:rgb(0, 0, 0);
 }
-.blink-colon {
-	animation: blink 1s infinite linear;
-}
-@keyframes blink {
-	0%, 100% {
-		opacity: 1;
-	}
-	30% {
-		opacity: 1;
-	}
-}
-.date-container {
-	margin-top: 1px;
-	font-size: 1px;
-	color: rgb(255,255,255)
-}
