@@ -13,9 +13,9 @@ body {
 	background: #FFFF;
 }
 .container {
-	border: 50px solid rgb(255, 255, 255);
-	width: 200px;
-	height: 100px;
+	border: 1px solid rgb(255, 255, 255);
+	width: 100px;
+	height: 50px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -45,7 +45,7 @@ body {
 	}
 }
 .date-container {
-	margin-top: 6px;
-	font-size: 24px;
+	margin-top: 1px;
+	font-size: 1px;
 	color: rgb(255,255,255)
 }
