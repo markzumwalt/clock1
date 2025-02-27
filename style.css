@@ -12,7 +12,7 @@ body {
 }
 .container {
 	border: 1px solid rgb(255, 255, 255);
-	margin-top: 20px;
+	margin-top: 25px;
 	width: 100px;
 	height: 40px;
 	display: flex;
@@ -31,5 +31,5 @@ body {
 }
 .time {
 	font-size: 1em;
-	color:rgba(180, 180, 180, 0.75);
+	color:rgba(100, 100, 100, 0.75);
 }
