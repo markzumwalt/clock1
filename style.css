@@ -1,5 +1,5 @@
 * {
-	margin: 0;
+	margin: auto;
 	padding: 0;
 	box-sizing: border-box;
 }
@@ -17,7 +17,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: row;
+	flex-direction: column;
 	color:#ffff;
 	font-size: 32px;
 	border-radius: 10%;
