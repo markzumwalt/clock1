@@ -4,7 +4,7 @@ window.onload = function () {
 
 function updateTime() {
 	const format = number => `${ +!(number < 10) && '' }${number}`;
-	
+	const hourTime = hour > 12 ? hour - 12 : hour;
 	let date = new Date();
 	
 	document.querySelector("#hour")  .innerHTML = format( date.getHours()   );
