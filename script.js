@@ -6,10 +6,18 @@ function updateTime() {
 	const format = number => `${ +!(number < 10) && '' }${number}`;
 	
 	let date = new Date();
-
-	const hourTime = hour > 12 ? hour - 12 : hour;
 	
 	document.querySelector("#hour")  .innerHTML = format( date.getHours()   );
+
+	if (hour > 12) {
+      hour = hour - 12;
+    }   
+    if (hour < 10 ) {
+      hour = "0" + hour;
+    }   
+    if(hour==0){ 
+      hour=12;
+    }
 	
 	document.querySelector("#date").innerHTML = (
 		[
