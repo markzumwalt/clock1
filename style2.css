@@ -11,15 +11,15 @@ body {
 	background: #FFFF;
 }
 .container {
-	margin-top: 10px;
+	margin-top: 1px;
 	width: 100px;
-	height: 21px;
-	display: flex;
+	height: 22px;
+	display: block;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	color:#ffff;
-	font-size: 30px;
+	font-size: 20px;
 	text-align: center;
 	
 }
