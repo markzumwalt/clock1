@@ -8,6 +8,7 @@ function updateTime() {
 	let date = new Date();
 	
 	document.querySelector("#hour")  .innerHTML = format( date.getHours()   );
+	document.querySelector("#minute").innerHTML = format( date.getMinutes() );
 
 	if (hour > 12) {
       hour = hour - 12;
