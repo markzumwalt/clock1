@@ -9,17 +9,8 @@ function updateTime() {
 	
 	document.querySelector("#hour")  .innerHTML = format( date.getHours()   );
 	document.querySelector("#minute").innerHTML = format( date.getMinutes() );
+	document.querySelector("#second").innerHTML = format( date.getSeconds() );
 
-	if (hour > 12) {
-      hour = hour - 12;
-    }   
-    if (hour < 10 ) {
-      hour = "0" + hour;
-    }   
-    if(hour==0){ 
-      hour=12;
-    }
-	
 	document.querySelector("#date").innerHTML = (
 		[
 			date.getDate(),
@@ -36,5 +27,4 @@ function updateTime() {
 	];
 	
 	document.querySelector("#day").innerHTML = week[ date.getDay() ];
-
 }
