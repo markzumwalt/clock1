@@ -13,7 +13,7 @@ body {
 .container {
 	margin-top: 10px;
 	width: 100px;
-	height: auto;
+	height: 21px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
