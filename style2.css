@@ -4,7 +4,7 @@
 }
 body {
 	font-family: Trebuchet MS;
-	display: flex;
+	display: flex-root;
 	align-items: center;
 	justify-content: center;
 	height: 100vh;
