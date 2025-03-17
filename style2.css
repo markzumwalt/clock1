@@ -29,3 +29,12 @@ body {
 	font-size: 1.5em;
 	color:rgb(80, 80, 80);
 }
+.date-container {
+	margin-top: 6px;
+	font-size: 24px;
+	color: rgba(255,255,255,0.8)
+}.date-container {
+	margin-top: 1px;
+	font-size: 2px;
+	color: rgba(255,255,255,0.8)
+}
