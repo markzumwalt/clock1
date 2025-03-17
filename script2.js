@@ -1,5 +1,4 @@
 function updateTime() {
-	const format = number => `${ +!(number < 10) && '' }${number}`;
 	
 	let date = new Date();
 	let hour = time.getHours();
@@ -9,7 +8,9 @@ function updateTime() {
     } else if (hour == 0) {
         hr = 12;   
     }
-  
+
+	const format = number => `${ +!(number < 10) && '' }${number}`;
+	
 	document.querySelector("#hour")  .innerHTML = hour;
 	document.querySelector("#minute").innerHTML = format( date.getMinutes() );
 	document.querySelector("#second").innerHTML = format( date.getSeconds() );
