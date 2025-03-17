@@ -1,7 +1,7 @@
 function updateTime() {
 	
 	let date = new Date();
-	let hour = time.getHours();
+	let hour = date.getHours();
    
   if (hour >= 12) {
         if (hour > 12) hour -= 12;
