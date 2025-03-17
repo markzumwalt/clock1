@@ -14,7 +14,7 @@ body {
 	margin-top: 1px;
 	width: 100px;
 	height: 32px;
-	display: block;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
