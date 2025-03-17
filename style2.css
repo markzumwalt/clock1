@@ -15,7 +15,7 @@ body {
 	height: 50px;
 	display: flex;
 	justify-content: center;
-	align-items: top;
+	align-items: center;
 	flex-direction: column;
 	color:#ffff;
 	font-size: 40px;
