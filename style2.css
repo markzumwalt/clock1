@@ -13,7 +13,7 @@ body {
 .container {
 	margin-top: 1px;
 	width: 100px;
-	height: 32px;
+	height: 50px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -24,6 +24,6 @@ body {
 	
 }
 .time {
-	font-size: 1em;
+	font-size: 2em;
 	color:rgb(80, 80, 80);
 }
