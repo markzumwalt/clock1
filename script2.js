@@ -1,17 +1,13 @@
-function updateTime() {
-	
-	let date = new Date();
-	let hour = date.getHours();
-   
-  if (hour >= 12) {
-        if (hour > 12) hour -= 12;
-    } else if (hour == 0) {
-        hr = 12;   
-    }
+window.onload = function () {
+	setInterval(updateTime, 1000)
+};
 
+function updateTime() {
 	const format = number => `${ +!(number < 10) && '' }${number}`;
 	
-	document.querySelector("#hour")  .innerHTML = hour;
+	let date = new Date();
+	
+	document.querySelector("#hour")  .innerHTML = format( date.getHours()   );
 	document.querySelector("#minute").innerHTML = format( date.getMinutes() );
 	document.querySelector("#second").innerHTML = format( date.getSeconds() );
 
