@@ -1,7 +1,6 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 }
 body {
 	font-family: Trebuchet MS;
@@ -12,7 +11,6 @@ body {
 	background: #FFFF;
 }
 .container {
-	border: 1px solid rgb(255, 255, 255);
 	margin-top: 1px;
 	width: 60px;
 	height: 10px;
